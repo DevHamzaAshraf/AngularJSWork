@@ -1,14 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ng-app="myfirstapp" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
     <title>Angular Porject 101</title>
 </head>
 <body>
     <h1 style="color: Blue;">Hello Hamza Here </h1>
     <br>
     <h3>Hello How u doin123</h3>
+    <div ng-controller="myfirstcontroller">
+        <input type="text" name="" id="" ng-model="name">
+        <p>lets see if it works {{name}} </p>
+
+    </div>
 </body>
 </html>
